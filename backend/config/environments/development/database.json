@@ -1,0 +1,22 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "uri": "mongodb://demouser:yemima2511@ds113853.mlab.com:13853/deliveroo__clone",
+        "host": "ds113853.mlab.com",
+        "srv": false,
+        "port": "13853",
+        "database": "deliveroo__clone",
+        "username": "demouser",
+        "password": "yemima2511"
+      },
+      "options": {
+        "authenticationDatabase": "",
+        "ssl": false
+      }
+    }
+  }
+}
